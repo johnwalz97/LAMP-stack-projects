@@ -1,0 +1,25 @@
+form {
+    margin-left: -160px;
+    position: absolute;
+    background: #3F3F3F;
+    color: #ECECEC;
+    width: 240px;;
+    padding: 40px;
+    left: 50%;
+}
+input ,h1 {
+    margin-left: 30px;
+    background: #3F3F3F;
+    color: #ECECEC;
+    display: block;
+}
+h1 {
+    position: relative;
+    left: 15px;
+}
+input  {
+    margin-top: 20px;
+}
+.file {
+    width: 100%;
+}

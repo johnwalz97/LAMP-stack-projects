@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url(Dark-Cubes.jpg);
+}
+#loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(bg-body.png);
+    margin: 0px;
+    padding-top: 200px;
+}
+.eurotech {
+    display: inline;
+}
+#mail {
+    display: block;
+    height: 30px;
+    background: red;
+}
+.post h1, .post p {
+    margin-bottom: 20px;
+}
+.post h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.post p {
+    font-size: 18px;
+}
+.post a {
+    font-size: 20px;
+}
+.element {
+    font-size: 45px;
+}
+.dark, .light {
+    padding-top: 140PX;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+}
+.dark {
+    color: white;
+    background-color: #3A3A3C;
+}
+
+.main_content_dark {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+header {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0px;
+    background-color: #2B2B2B;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.username_dark {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+.focus, .focus_dark {
+    display: none;
+}
+.day1 {
+    background-color: yellow;
+}
+.center_container {
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+}
+.right_bar {
+    background-color: #E9E581;
+    color: #2b2b2b;
+    position: absolute;
+    width: 20%;
+    right: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+}
+table {
+    width: 100%;
+}
+.post {
+    color: #F6F6F6;
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: #2B2B2B;
+    padding: 20px;
+}
+.left_bar {
+    position: absolute;
+    left: 10px;
+    margin-top: 30px;
+    width: 20%;
+}
+.links {
+    font-size: 12px;
+    position: relative;
+    top: 100px;
+    background-color: #E9E581; 
+    padding: 10px;
+}
+
+.left_header {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #2B2B2B;
+    color: #F6F6F6;
+    font-size: 36px;
+    margin: 0px;
+}
+a {
+    display: block;
+    color: red;
+    font-size: 15px;
+}
+.form {
+    display: none;
+    position: fixed;
+    top: 100px;
+    height: 400px;
+    width: 50%;
+    left: 25%;
+    background-color: #fff;
+    z-index: 100;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0px;
+    background-color: #d2d2d2;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+.form img {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.text {
+    height: 100px;
+    width: 300px;
+}
+.formbutton {
+    margin-top: 20px;
+}
+.clear {
+    clear: both;
+}

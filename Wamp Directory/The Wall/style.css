@@ -1,0 +1,104 @@
+* {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+input {
+    color: black;
+    padding: 5px;
+    border: solid thin black;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: white;
+    background: red;
+}
+.header h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.background {
+    background: url(Dark-Cubes.jpg);
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.wrapper {
+    width: 80%;
+    margin-left: 10%;
+    top: 200px;
+    position: absolute;
+    z-index: 100;
+}
+.comment {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+span {
+    text-transform: capitalize;
+}
+h2 {
+    text-align: center;
+}
+.post_message input[type= "submit"] {
+    width: 10%;
+    min-width: 105px;
+    margin-left: 45%;
+    text-align: center;
+}
+.post_message textarea {
+    height: 100px;
+    width: 99%;
+}
+.message {
+    padding: 20px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
+}
+textarea {
+    color: black;
+    height: 75px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.post_message {
+    margin: 20px 0px 20px 0px;
+}
+.header {
+    z-index: 101;
+    position: fixed;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0px;
+    background-color: #2B2B2B;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.head {
+    display: inline;
+}
+form.head {
+    float: right;
+    margin-right: 50px;
+}
+h3.head {
+    position: absolute;
+    right: 15%;
+}
+.message {
+    color: #F6F6F6;
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: #2B2B2B;
+    padding: 20px;
+}
+.message h4 {
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.message p {
+    font-size: 18px;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+.farm, .cave, .house, .casino {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    vertical-align: top;
+    border: solid thin black;
+}
+.cave, .house, .casino {
+    margin-left: 75px;
+}
+.activities {
+    position: absolute;
+    width: 100%;
+    top: 350px;
+}
+textarea {
+    min-height: 150px;
+    width: 100%;
+}
+.places_container {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+}
+.kill {
+    position: absolute;
+}
